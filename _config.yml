@@ -1,4 +1,5 @@
-baseurl: '/'
+url: 'https://mreguant.github.io/'
+baseurl: '/erc-enecml'
 permalink: pretty
 title: 'ERC ENECML'
 
