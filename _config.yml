@@ -1,13 +1,12 @@
-url: 'https://mreguant.github.io/'
+url: 'https://mreguant.github.io'
 baseurl: '/erc-enecml'
-permalink: pretty
 title: 'ERC ENECML'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/bse_energy_400x400.jpeg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/bse_energy_400x400.jpeg"
   desktop_height: "32px"
   desktop_width: "120px"
 
