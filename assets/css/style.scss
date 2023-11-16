@@ -7,8 +7,8 @@ $primary-dark: #035f6b;
 $secondary: #068599;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
 $steel: #5c5a5a;
+$white-offset: lighten($steel, 60%);
 
 // Links
 $link-color: $primary;
@@ -59,7 +59,7 @@ $sub-footer-text-color: $white;
 // Pages
 @import "pages/page-home";
 @import "pages/page-teams";
-@import "pages/page-service";
+@import "pages/page-project";
 
 body {
   font-size: 16px;

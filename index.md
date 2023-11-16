@@ -1,7 +1,7 @@
 ---
-title: ERC ENECML Project
+title: The ENECML Project
 layout: home
-description: Website for the ERC project ENECML
+description: Website for the ENECML project (European Research Council grant agreement 101001732)
 intro_image: false #"images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
