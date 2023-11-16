@@ -7,5 +7,3 @@ linkedinurl: "https://mreguant.github.io/"
 promoted: true
 weight: 1
 ---
-
-Mar is an ICREA researcher and professor at...
