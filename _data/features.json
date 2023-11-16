@@ -9,6 +9,15 @@
     }
   },
   {
+    "title": "As part of",
+    "description": "Barcelona School of Economics",
+    "image": {
+      "url": "images/logo/bse_logo.jpg",
+      "width": 120,
+      "height": 60
+    }
+  },
+  {
     "title": "With the support of",
     "description": "(grant agreement 101001732)",
     "image": {
