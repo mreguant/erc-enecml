@@ -1,6 +1,6 @@
 ---
 title: "Aislinn Carty"
 date: 2018-12-20T13:44:55+10:00
-jobtitle: "Research Assistant -> Statistical Office Ireland"
+jobtitle: "Research Assistant -> Central Statistics Office (Ireland)"
 weight: 1
 ---
