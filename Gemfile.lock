@@ -85,10 +85,10 @@ PLATFORMS
   arm64-darwin-23
 
 DEPENDENCIES
-  jekyll (~> 4.2)
+  jekyll
   jekyll-environment-variables
   jekyll-scholar
-  webrick (~> 1.7)
+  webrick
 
 BUNDLED WITH
    2.4.22
