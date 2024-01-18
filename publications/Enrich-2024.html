@@ -57,7 +57,7 @@
       <a href="/erc-enecml/"><img width="" height="78px" alt="The ENECML Project" src="/erc-enecml/images/logo/bse_iae_logo.jpeg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="/erc-enecml/"><img width="" height="32px" alt="The ENECML Project" src="/erc-enecml/images/logo/bse_iae_logo.jpeg" /></a>
+      <a href="/erc-enecml/"><img width="" height="48px" alt="The ENECML Project" src="/erc-enecml/images/logo/bse_iae_logo.jpeg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   
@@ -90,12 +90,28 @@
   </div>
 </div>
 
-    <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="container pb-0 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="publication publication-single">
         <h2>Measuring the impact of time-of-use pricing on electricity consumption: Evidence from Spain</h2>
-        <div class="content"><p></p>
+        <div class="content"><p>Time-of-use pricing program for residential electricity demand in Spain reduced consumption during mid and peak hours on average, while maintaining consumption during lower-priced hours.</p>
+
+<p>The growing share of renewable electricity generation, coupled with demand fluctuations, emphasizes the inherent challenge of balancing energy supply and demand. Thus, the <strong>crucial need for pricing structures that precisely capture these dynamics to prevent market inefficiencies</strong>. Several governments are recognizing the need to ensure a more effective alignment between consumer prices and the varying costs of electricity generation, transitioning from static to dynamic pricing models. <strong>The success of dynamic pricing will depend on the potential market failures and the proposed mechanism</strong>. For instance, day-ahead real-time pricing (RTP) may face challenges in the presence of imperfect information or adjustment costs, necessitating the use of automated load-shifting technologies for an effective demand response. Alternatively, predetermined retail pricing policies, exemplified by time-of-use (TOU) pricing, can address information constraints and reduce short-term costs associated with shifting consumption.</p>
+
+<p><strong>How would consumer demand response change under a policy that significantly reduces prices during off-peak hours and substantially increases prices during peak hours?</strong> In June 2021, the Spanish government implemented a regulatory change affecting system and network charges, constituting 50% of the total electricity bill. The new regulation introduced three distinct marginal prices based on the time of day and the day of the week. Workdays were categorized into peak, off-peak, and mid-peak hours, while weekends and holidays were designated as off-peak hours.</p>
+
+<p>The authors estimate a <strong>Differences-in-Differences (DID)</strong> fixed effects model, comparing hourly differences in electricity consumption before and after the policy in Spain’s treated distribution areas and Portugal, the control group, including a rich set of fixed effects. They find that the program could have <strong>reduced consumption by up to 9% during peak periods</strong>. The authors then explore the potential habit formation spillover from weekdays to weekends when prices are unaffected by the policy. Differentiating between these periods, results reveal a <strong>significant demand response for mid- and peak hours</strong>, even on weekends when prices do not vary by time of day (Figure 1).</p>
+
+<figure>
+  <center>  
+  <figcaption><p style="color:#5c5a5a"> <strong>Figure 1:</strong> Policy effects by hour of the day and type of day</p></figcaption>
+  <img src="../images/publications/Enrich-2024.png" />
+  </center>
+</figure>
+
+<p>The authors then turn to <strong>Machine Learning methods</strong> to choose the correct specification in a context with many possible covariates and interactions. First, they use pre-treatment data to create a distribution area-specific electricity consumption model, that then use to create out-of-sample predictions for the post-treatment period.  In a second step, the authors compute prediction errors and regress them as the dependent variable of the DID model estimated before. They find evidence that using machine learning techniques helps to reduce the sensitivity of the estimates across different fixed-effect specifications. Overall, these results align with the literature studying behavioral factors in explaining consumer responsiveness, suggesting that <strong>a predetermined pricing program, by enhancing consumer awareness, makes these prices more salient thus triggering stronger household responses</strong>.</p>
+
 </div>
       </div>
     </div>
